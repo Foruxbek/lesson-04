@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.div1{
+    width: 100%;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.img{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+.btn{
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: rgb(201, 22, 126);
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius:10px;
+}
+.div2{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.go{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #0d0c22;
+}
+

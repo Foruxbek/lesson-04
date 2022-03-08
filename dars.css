@@ -1,0 +1,25 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+.div{
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    background-color: cadetblue;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    overflow: scroll;
+
+
+
+}
+.div1{
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
